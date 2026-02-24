@@ -1,0 +1,81 @@
+{
+  "articles": [
+    {
+      "id": "smartspend-basics",
+      "title": "Что такое SmartSpend и как это работает",
+      "description": "Базовый гид по системе: амортизация, конверты и Smart-наборы",
+      "category": "СТРАТЕГИЯ",
+      "readTime": 5,
+      "views": 1240,
+      "featured": true,
+      "strategyTags": ["growth", "optimization", "capital", "cushion", "debt"],
+      "content": "Здесь будет полный текст статьи..."
+    },
+    {
+      "id": "debt-strategy",
+      "title": "Метод лавины: как быстрее закрыть кредиты",
+      "description": "Пошаговая инструкция по досрочному погашению долгов",
+      "category": "ДОЛГИ",
+      "readTime": 7,
+      "views": 890,
+      "featured": false,
+      "strategyTags": ["debt"],
+      "content": "..."
+    },
+    {
+      "id": "cushion-guide",
+      "title": "Как накопить подушку безопасности за 6 месяцев",
+      "description": "Реалистичный план для любого дохода",
+      "category": "СБЕРЕЖЕНИЯ",
+      "readTime": 6,
+      "views": 2100,
+      "featured": false,
+      "strategyTags": ["cushion", "growth"],
+      "content": "..."
+    },
+    {
+      "id": "investing-start",
+      "title": "Куда инвестировать, если у вас небольшой капитал",
+      "description": "ETF, ИИС и облигации — что выбрать новичку",
+      "category": "ИНВЕСТИЦИИ",
+      "readTime": 8,
+      "views": 1560,
+      "featured": true,
+      "strategyTags": ["optimization", "capital"],
+      "content": "..."
+    },
+    {
+      "id": "income-growth",
+      "title": "7 способов увеличить доход без смены работы",
+      "description": "Практические методы для стратегии роста",
+      "category": "ДОХОД",
+      "readTime": 5,
+      "views": 3400,
+      "featured": false,
+      "strategyTags": ["growth"],
+      "content": "..."
+    },
+    {
+      "id": "capital-max",
+      "title": "Точка безопасности: когда капитал работает на вас",
+      "description": "Как рассчитать и достичь финансовой независимости",
+      "category": "ИНВЕСТИЦИИ",
+      "readTime": 10,
+      "views": 980,
+      "featured": false,
+      "strategyTags": ["capital"],
+      "content": "..."
+    },
+    {
+      "id": "optimization-tips",
+      "title": "10 Smart-наборов, которые изменят ваш бюджет",
+      "description": "Практика применения системы в повседневной жизни",
+      "category": "БЮДЖЕТ",
+      "readTime": 6,
+      "views": 1870,
+      "featured": false,
+      "strategyTags": ["optimization", "capital"],
+      "content": "..."
+    }
+  ]
+}
