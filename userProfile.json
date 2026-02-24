@@ -1,0 +1,12 @@
+{
+  "userId": "demo-user",
+  "profile": {
+    "name": "",
+    "monthlyIncome": 0,
+    "monthlyHousing": 0,
+    "monthlyOther": 0,
+    "capitalAmount": 0
+  },
+  "onboardingCompleted": false,
+  "createdAt": ""
+}
