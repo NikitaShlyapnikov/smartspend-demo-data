@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": "user-1",
+      "username": "анна",
+      "password": "demo123",
+      "profile": {
+        "name": "Анна",
+        "monthlyIncome": 80000,
+        "monthlyHousing": 25000,
+        "monthlyOther": 20000,
+        "capitalAmount": 150000,
+        "strategy": "optimization"
+      }
+    },
+    {
+      "id": "user-2",
+      "username": "иван",
+      "password": "demo123",
+      "profile": {
+        "name": "Иван",
+        "monthlyIncome": 45000,
+        "monthlyHousing": 15000,
+        "monthlyOther": 25000,
+        "capitalAmount": 0,
+        "strategy": "growth"
+      }
+    },
+    {
+      "id": "user-3",
+      "username": "мария",
+      "password": "demo123",
+      "profile": {
+        "name": "Мария",
+        "monthlyIncome": 120000,
+        "monthlyHousing": 35000,
+        "monthlyOther": 30000,
+        "capitalAmount": 450000,
+        "strategy": "capital"
+      }
+    },
+    {
+      "id": "user-4",
+      "username": "дмитрий",
+      "password": "demo123",
+      "profile": {
+        "name": "Дмитрий",
+        "monthlyIncome": 65000,
+        "monthlyHousing": 25000,
+        "monthlyOther": 30000,
+        "capitalAmount": 20000,
+        "strategy": "cushion"
+      }
+    },
+    {
+      "id": "user-5",
+      "username": "елена",
+      "password": "demo123",
+      "profile": {
+        "name": "Елена",
+        "monthlyIncome": 95000,
+        "monthlyHousing": 40000,
+        "monthlyOther": 35000,
+        "capitalAmount": 50000,
+        "strategy": "debt"
+      }
+    }
+  ]
+}
