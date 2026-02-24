@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "id": "name",
+      "question": "Как вас зовут?",
+      "type": "text",
+      "placeholder": "Анна"
+    },
+    {
+      "id": "income",
+      "question": "Ваш ежемесячный доход (после налогов)?",
+      "type": "number",
+      "placeholder": "80 000",
+      "suffix": "₽"
+    },
+    {
+      "id": "housing",
+      "question": "Сколько уходит на жильё в месяц?",
+      "subtext": "Аренда/ипотека + коммунальные",
+      "type": "number",
+      "placeholder": "25 000",
+      "suffix": "₽"
+    },
+    {
+      "id": "other",
+      "question": "Прочие регулярные расходы?",
+      "subtext": "Транспорт, связь, подписки, обеды вне дома",
+      "type": "number",
+      "placeholder": "20 000",
+      "suffix": "₽"
+    },
+    {
+      "id": "capital",
+      "question": "Какой у вас размер накоплений?",
+      "subtext": "Вклады, наличные, инвестиции",
+      "type": "number",
+      "placeholder": "150 000",
+      "suffix": "₽",
+      "optional": true
+    }
+  ]
+}
