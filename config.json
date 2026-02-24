@@ -1,0 +1,9 @@
+{
+  "appName": "SmartSpend",
+  "version": "demo-1.0",
+  "features": {
+    "onboarding": true,
+    "catalog": false,
+    "inventory": false
+  }
+}
