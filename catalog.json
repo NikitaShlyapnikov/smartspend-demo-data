@@ -48,7 +48,6 @@
         {"name": "Белки", "source": "Куриная грудка, Яйца, Творог", "status": "full"},
         {"name": "Железо", "source": "Печень, Сердца", "status": "full"},
         {"name": "Витамин D", "source": "Сельдь, Яйца", "status": "full"}
-        // ... остальные 28
       ],
       
       "costBreakdown": {
