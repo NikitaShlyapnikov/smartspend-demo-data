@@ -3,7 +3,6 @@
    {
       "id": "user-1",
       "username": "анна",
-      // ... существующие поля
       "mySets": [
         {
           "id": "my-set-1654321",
@@ -12,11 +11,11 @@
           "categorySlug": "food",
           "createdAt": "2026-02-26T10:00:00Z",
           "isPublic": true,
-          "shareId": "abc123xyz", // для короткой ссылки
+          "shareId": "abc123xyz",
           "items": [
             {
               "id": "item-1",
-              "sourceSetId": "food-minimal", // откуда взято (если из каталога)
+              "sourceSetId": "food-minimal",
               "name": "Кофе",
               "emoji": "☕",
               "amortizationType": "consumable",
@@ -45,7 +44,7 @@
           "stats": {
             "itemsCount": 2,
             "monthlyBudget": 840,
-            "copiesCount": 3 // сколько раз скопировали
+            "copiesCount": 3
           }
         }
       ]
