@@ -156,6 +156,164 @@
         }
       ]
     },
+   {
+  "categories": [
+    {
+      "slug": "food",
+      "name": "Еда и Супермаркеты",
+      "icon": "🍽️",
+      "color": "#4CAF50"
+    },
+    {
+      "slug": "care",
+      "name": "Красота и Здоровье",
+      "icon": "💄",
+      "color": "#9C27B0"
+    },
+    {
+      "slug": "clothes",
+      "name": "Одежда и Обувь",
+      "icon": "👕",
+      "color": "#2196F3"
+    },
+    {
+      "slug": "transport",
+      "name": "Авто и Транспорт",
+      "icon": "🚗",
+      "color": "#FF9800"
+    },
+    {
+      "slug": "home",
+      "name": "Дом и Техника",
+      "icon": "💻",
+      "color": "#607D8B"
+    }
+  ],
+  "sets": [
+    {
+      "id": "food-minimal",
+      "categorySlug": "food",
+      "name": "Минимальный рацион",
+      "description": "Всё необходимое для здоровья",
+      "methodology": "Оптимальное соотношение цена/нутриент",
+      "fullDescription": "Этот набор решает задачу, которую большинство людей никогда не ставили явно: получить 100% суточной нормы всех известных нутриентов при минимальных затратах. Не «здоровое питание» в маркетинговом смысле — а математически полный рацион.",
+      "methodologyFull": "Каждый продукт выбран как лидер по соотношению нутриент/рубль в своей группе. Печень — дешевейший источник гемового железа и витамина A. Сельдь — самый доступный источник длинноцепочечных омега-3 и витамина D. Тыквенные семечки — лидер по цинку и магнию. Йодированная соль — единственный гарантированный источник йода.",
+      "badges": ["popular"],
+      "featured": true,
+      "monthlyBudget": 8500,
+      "exampleBrands": ["Лента", "Пятёрочка", "ВкусВилл"],
+       "nutrientsCovered": [
+        {"name": "Белки", "source": "Куриная грудка, Яйца, Творог", "status": "full"},
+        {"name": "Железо", "source": "Печень, Сердца", "status": "full"},
+        {"name": "Витамин D", "source": "Сельдь, Яйца", "status": "full"}
+      ],
+  
+      "costBreakdown": {
+        "weekly": 1830,
+        "monthly": 7920,
+        "withSupplements": {
+          "weekly": 1960,
+          "monthly": 8480,
+          "note": "D3 + Цинк для осенне-зимнего периода"
+        }
+      },
+      
+      "recipes": [
+        {
+          "id": "recipe-1",
+          "name": "Творог с бананом",
+          "description": "Нарезать банан, смешать с творогом",
+          "time": 2,
+          "ingredients": ["Творог", "Бананы"],
+          "calories": 320
+        },
+        {
+          "id": "recipe-2",
+          "name": "Яичница с капустой",
+          "description": "Обжарить капусту, залить яйцами",
+          "time": 7,
+          "ingredients": ["Яйца", "Капуста", "Масло"],
+          "calories": 280
+        }
+      ],
+      "items": [
+        {
+          "id": "chicken-breast",
+          "name": "Куриная грудка",
+          "emoji": "🍗",
+          "amortizationType": "consumable",
+          "price": "360 ₽/кг",
+          "priceRub": 360,
+          "consumptionRate": 500,
+          "consumptionUnit": "g",
+          "consumptionPeriod": "weekly",
+          "packageSize": 1000,
+          "weeklyAmount": "500 г",
+          "weeklyCostRub": 180,
+          "nutrientFocus": ["Белок"]
+        },
+        {
+          "id": "eggs",
+          "name": "Яйца",
+          "emoji": "🥚",
+          "amortizationType": "consumable",
+          "price": "180 ₽/дес.",
+          "priceRub": 180,
+          "consumptionRate": 14,
+          "consumptionUnit": "pcs",
+          "consumptionPeriod": "weekly",
+          "packageSize": 10,
+          "weeklyAmount": "14 шт.",
+          "weeklyCostRub": 252,
+          "nutrientFocus": ["B12", "D", "Белок"]
+        },
+        {
+          "id": "buckwheat",
+          "name": "Гречка",
+          "emoji": "🌾",
+          "amortizationType": "consumable",
+          "price": "144 ₽/кг",
+          "priceRub": 144,
+          "consumptionRate": 500,
+          "consumptionUnit": "g",
+          "consumptionPeriod": "weekly",
+          "packageSize": 1000,
+          "weeklyAmount": "500 г",
+          "weeklyCostRub": 72,
+          "nutrientFocus": ["Магний", "Клетчатка"]
+        },
+        {
+          "id": "oats",
+          "name": "Овсянка",
+          "emoji": "🥣",
+          "amortizationType": "consumable",
+          "price": "120 ₽/кг",
+          "priceRub": 120,
+          "consumptionRate": 500,
+          "consumptionUnit": "g",
+          "consumptionPeriod": "weekly",
+          "packageSize": 1000,
+          "weeklyAmount": "500 г",
+          "weeklyCostRub": 60,
+          "nutrientFocus": ["Клетчатка", "B1"]
+        },
+        {
+          "id": "cabbage",
+          "name": "Капуста",
+          "emoji": "🥬",
+          "amortizationType": "consumable",
+          "price": "48 ₽/кг",
+          "priceRub": 48,
+          "consumptionRate": 1500,
+          "consumptionUnit": "g",
+          "consumptionPeriod": "weekly",
+          "packageSize": 1000,
+          "weeklyAmount": "1.5 кг",
+          "weeklyCostRub": 72,
+          "nutrientFocus": ["C", "K", "Клетчатка"]
+        }
+      ]
+    },
     {
   "id": "clothes-capsule-winter",
   "categorySlug": "clothes",
@@ -178,8 +336,8 @@
       "priceRub": 15000,
       "serviceLifeYears": 4,
       "serviceLifeWeeks": 208,
-      "weeklyCostRub": 72,      // было правильно (15000 / 208)
-      "dailyCostRub": 10,        // добавил (72 / 7)
+      "weeklyCostRub": 72,      
+      "dailyCostRub": 10,       
       "replacementPrice": 15000
     },
     {
@@ -191,8 +349,8 @@
       "priceRub": 8000,
       "serviceLifeYears": 3,
       "serviceLifeWeeks": 156,
-      "weeklyCostRub": 51,       // было правильно (8000 / 156)
-      "dailyCostRub": 7,         // добавил
+      "weeklyCostRub": 51,      
+      "dailyCostRub": 7,      
       "replacementPrice": 8000
     },
     {
@@ -204,8 +362,8 @@
       "priceRub": 4000,
       "serviceLifeYears": 3,
       "serviceLifeWeeks": 156,
-      "weeklyCostRub": 26,       // исправил (4000 / 156 = 25.6 → округлил до 26)
-      "dailyCostRub": 4,         // добавил
+      "weeklyCostRub": 26,     
+      "dailyCostRub": 4,       
       "replacementPrice": 4000
     },
     {
@@ -217,10 +375,12 @@
       "priceRub": 3500,
       "serviceLifeYears": 2,
       "serviceLifeWeeks": 104,
-      "weeklyCostRub": 34,       // было правильно (3500 / 104 = 33.6 → 34)
-      "dailyCostRub": 5,         // добавил
+      "weeklyCostRub": 34,   
+      "dailyCostRub": 5,         
       "replacementPrice": 3500
     }
+  ]
+}
   ]
 }
   ]
