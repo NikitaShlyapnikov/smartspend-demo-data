@@ -155,6 +155,67 @@
           "nutrientFocus": ["C", "K", "Клетчатка"]
         }
       ]
+    },
+    {
+  "id": "clothes-capsule-winter",
+  "categorySlug": "clothes",
+  "name": "Зимний капсульный гардероб",
+  "description": "Тёплая одежда на зиму",
+  "methodology": "Капсульный метод + терморегуляция",
+  "badges": ["popular"],
+  "featured": true,
+  "monthlyBudget": 5500,
+  "exampleBrands": ["Uniqlo", "Finn Flare", "Baon"],
+  "items": [
+    {
+      "id": "winter-jacket",
+      "name": "Зимняя куртка",
+      "emoji": "🧥",
+      "amortizationType": "depreciating",
+      "price": "15000 ₽",
+      "priceRub": 15000,
+      "serviceLifeYears": 4,
+      "weeklyCostRub": 72,
+      "replacementPrice": 15000,
+      "serviceLifeWeeks": 208
+    },
+    {
+      "id": "winter-boots",
+      "name": "Зимние ботинки",
+      "emoji": "👢",
+      "amortizationType": "depreciating",
+      "price": "8000 ₽",
+      "priceRub": 8000,
+      "serviceLifeYears": 3,
+      "weeklyCostRub": 51,
+      "replacementPrice": 8000,
+      "serviceLifeWeeks": 156
+    },
+    {
+      "id": "wool-sweater",
+      "name": "Шерстяной свитер",
+      "emoji": "🧶",
+      "amortizationType": "depreciating",
+      "price": "4000 ₽",
+      "priceRub": 4000,
+      "serviceLifeYears": 3,
+      "weeklyCostRub": 25,
+      "replacementPrice": 4000,
+      "serviceLifeWeeks": 156
+    },
+    {
+      "id": "thermal-underwear",
+      "name": "Термобельё",
+      "emoji": "🧦",
+      "amortizationType": "depreciating",
+      "price": "3500 ₽",
+      "priceRub": 3500,
+      "serviceLifeYears": 2,
+      "weeklyCostRub": 34,
+      "replacementPrice": 3500,
+      "serviceLifeWeeks": 104
     }
+  ]
+}
   ]
 }
