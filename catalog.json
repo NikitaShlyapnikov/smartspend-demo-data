@@ -165,6 +165,8 @@
   "badges": ["popular"],
   "featured": true,
   "monthlyBudget": 5500,
+  "weeklyBudget": 1270,
+  "dailyBudget": 183,
   "exampleBrands": ["Uniqlo", "Finn Flare", "Baon"],
   "items": [
     {
@@ -175,9 +177,10 @@
       "price": "15000 ₽",
       "priceRub": 15000,
       "serviceLifeYears": 4,
-      "weeklyCostRub": 72,
-      "replacementPrice": 15000,
-      "serviceLifeWeeks": 208
+      "serviceLifeWeeks": 208,
+      "weeklyCostRub": 72,      // было правильно (15000 / 208)
+      "dailyCostRub": 10,        // добавил (72 / 7)
+      "replacementPrice": 15000
     },
     {
       "id": "winter-boots",
@@ -187,9 +190,10 @@
       "price": "8000 ₽",
       "priceRub": 8000,
       "serviceLifeYears": 3,
-      "weeklyCostRub": 51,
-      "replacementPrice": 8000,
-      "serviceLifeWeeks": 156
+      "serviceLifeWeeks": 156,
+      "weeklyCostRub": 51,       // было правильно (8000 / 156)
+      "dailyCostRub": 7,         // добавил
+      "replacementPrice": 8000
     },
     {
       "id": "wool-sweater",
@@ -199,9 +203,10 @@
       "price": "4000 ₽",
       "priceRub": 4000,
       "serviceLifeYears": 3,
-      "weeklyCostRub": 25,
-      "replacementPrice": 4000,
-      "serviceLifeWeeks": 156
+      "serviceLifeWeeks": 156,
+      "weeklyCostRub": 26,       // исправил (4000 / 156 = 25.6 → округлил до 26)
+      "dailyCostRub": 4,         // добавил
+      "replacementPrice": 4000
     },
     {
       "id": "thermal-underwear",
@@ -211,9 +216,10 @@
       "price": "3500 ₽",
       "priceRub": 3500,
       "serviceLifeYears": 2,
-      "weeklyCostRub": 34,
-      "replacementPrice": 3500,
-      "serviceLifeWeeks": 104
+      "serviceLifeWeeks": 104,
+      "weeklyCostRub": 34,       // было правильно (3500 / 104 = 33.6 → 34)
+      "dailyCostRub": 5,         // добавил
+      "replacementPrice": 3500
     }
   ]
 }
