@@ -48,8 +48,8 @@
         {"name": "Белки", "source": "Куриная грудка, Яйца, Творог", "status": "full"},
         {"name": "Железо", "source": "Печень, Сердца", "status": "full"},
         {"name": "Витамин D", "source": "Сельдь, Яйца", "status": "full"}
-      ]
-      
+      ],
+  
       "costBreakdown": {
         "weekly": 1830,
         "monthly": 7920,
