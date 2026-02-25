@@ -1,18 +1,33 @@
 {
   "users": [
+   {
+  "id": "user-1",
+  "username": "анна",
+  "password": "demo123",
+  "profile": {
+    "name": "Анна",
+    "monthlyIncome": 80000,
+    "monthlyHousing": 25000,
+    "monthlyOther": 20000,
+    "capitalAmount": 150000,
+    "strategy": "optimization",
+    "smartSetsTotal": 14300,
+    "coreMonthly": 20000
+  },
+  "sets": ["food-minimal", "care-minimal", "clothes-capsule-winter"],
+  "inventory": [],
+  "notifications": [
     {
-      "id": "user-1",
-      "username": "анна",
-      "password": "demo123",
-      "profile": {
-        "name": "Анна",
-        "monthlyIncome": 80000,
-        "monthlyHousing": 25000,
-        "monthlyOther": 20000,
-        "capitalAmount": 150000,
-        "strategy": "optimization"
-      }
-    },
+      "id": "notif-1",
+      "type": "warn",
+      "title": "Гречка заканчивается",
+      "subtitle": "Осталось 3 дня",
+      "createdAt": "2026-02-25T10:00:00Z",
+      "read": false,
+      "targetUrl": "/inventory"
+    }
+  ]
+},
     {
       "id": "user-2",
       "username": "иван",
