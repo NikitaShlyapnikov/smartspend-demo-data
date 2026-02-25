@@ -1,33 +1,55 @@
 {
   "users": [
    {
-  "id": "user-1",
-  "username": "анна",
-  "password": "demo123",
-  "profile": {
-    "name": "Анна",
-    "monthlyIncome": 80000,
-    "monthlyHousing": 25000,
-    "monthlyOther": 20000,
-    "capitalAmount": 150000,
-    "strategy": "optimization",
-    "smartSetsTotal": 14300,
-    "coreMonthly": 20000
-  },
-  "sets": ["food-minimal", "care-minimal", "clothes-capsule-winter"],
-  "inventory": [],
-  "notifications": [
-    {
-      "id": "notif-1",
-      "type": "warn",
-      "title": "Гречка заканчивается",
-      "subtitle": "Осталось 3 дня",
-      "createdAt": "2026-02-25T10:00:00Z",
-      "read": false,
-      "targetUrl": "/inventory"
-    }
-  ]
-},
+      "id": "user-1",
+      "username": "анна",
+      // ... существующие поля
+      "mySets": [
+        {
+          "id": "my-set-1654321",
+          "name": "Мой утренний ритуал",
+          "description": "Что я пью и ем каждое утро",
+          "categorySlug": "food",
+          "createdAt": "2026-02-26T10:00:00Z",
+          "isPublic": true,
+          "shareId": "abc123xyz", // для короткой ссылки
+          "items": [
+            {
+              "id": "item-1",
+              "sourceSetId": "food-minimal", // откуда взято (если из каталога)
+              "name": "Кофе",
+              "emoji": "☕",
+              "amortizationType": "consumable",
+              "priceRub": 600,
+              "consumptionRate": 10,
+              "consumptionUnit": "g",
+              "consumptionPeriod": "daily",
+              "packageSize": 250,
+              "weeklyCostRub": 168,
+              "note": "Люблю с корицей"
+            },
+            {
+              "id": "item-2",
+              "sourceSetId": "food-minimal",
+              "name": "Овсянка",
+              "emoji": "🥣",
+              "amortizationType": "consumable",
+              "priceRub": 120,
+              "consumptionRate": 50,
+              "consumptionUnit": "g",
+              "consumptionPeriod": "daily",
+              "packageSize": 1000,
+              "weeklyCostRub": 42
+            }
+          ],
+          "stats": {
+            "itemsCount": 2,
+            "monthlyBudget": 840,
+            "copiesCount": 3 // сколько раз скопировали
+          }
+        }
+      ]
+    },
     {
       "id": "user-2",
       "username": "иван",
