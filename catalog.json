@@ -35,6 +35,7 @@
     {
       "id": "food-minimal",
       "categorySlug": "food",
+      "monthlyBudget": 8500,
       "name": "Минимальный рацион",
       "isDefault": true,
       "type": "default",
