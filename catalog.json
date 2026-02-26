@@ -35,7 +35,6 @@
     {
       "id": "food-minimal",
       "categorySlug": "food",
-      "monthlyBudget": 8500,
       "name": "Минимальный рацион",
       "isDefault": true,
       "type": "default",
@@ -51,6 +50,7 @@
         {"name": "Железо", "source": "Печень, Сердца", "status": "full"},
         {"name": "Витамин D", "source": "Сельдь, Яйца", "status": "full"}
       ],
+      "monthlyBudget": 8500,
       "costBreakdown": {
         "weekly": 1830,
         "monthly": 7920,
