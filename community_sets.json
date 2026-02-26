@@ -1,0 +1,19 @@
+{
+  "communitySets": [
+    {
+      "id": "community-set-morning",
+      "originalAuthor": "Анна",
+      "authorId": "user-1",
+      "name": "Мой утренний ритуал",
+      "description": "Идеальное утро начинается с этого",
+      "categorySlug": "food",
+      "createdAt": "2026-02-20T08:30:00Z",
+      "copiesCount": 2,
+      "items": [ /* те же поля, что в mySets */ ],
+      "stats": {
+        "monthlyBudget": 2240,
+        "itemsCount": 3
+      }
+    }
+  ]
+}
