@@ -1,19 +1,20 @@
 {
   "communitySets": [
     {
-      "id": "community-set-morning",
-      "originalAuthor": "Анна",
-      "authorId": "user-1",
-      "name": "Мой утренний ритуал",
-      "description": "Идеальное утро начинается с этого",
+      "id": "community-set-sport",
+      "type": "community",
+      "originalAuthor": "Иван",
+      "authorId": "user-2",
+      "name": "Спортивное питание",
       "categorySlug": "food",
-      "createdAt": "2026-02-20T08:30:00Z",
-      "copiesCount": 2,
-      "items": [ /* те же поля, что в mySets */ ],
+      "description": "Для тех, кто в зале",
+      "items": [...],
       "stats": {
-        "monthlyBudget": 2240,
-        "itemsCount": 3
-      }
+        "monthlyBudget": 3200,
+        "itemsCount": 5,
+        "copiesCount": 7
+      },
+      "createdAt": "2026-02-15T14:20:00Z"
     }
   ]
 }
