@@ -7,7 +7,7 @@
   "mySets": [
     {
       "id": "my-set-morning",
-      "type": "my",  // добавить поле
+      "type": "my",
       "name": "Мой утренний ритуал",
       "originalAuthor": "Анна",
       "authorId": "user-1",
