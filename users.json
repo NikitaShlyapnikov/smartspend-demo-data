@@ -7,15 +7,12 @@
   "mySets": [
     {
       "id": "my-set-morning",
+      "type": "my",  // добавить поле
       "name": "Мой утренний ритуал",
-      "description": "Идеальное утро начинается с этого",
-      "categorySlug": "food",
-      "createdAt": "2026-02-20T08:30:00Z",
-      "isPublic": true,
-      "shareId": "morning123",
-      "copiesCount": 2,
       "originalAuthor": "Анна",
       "authorId": "user-1",
+      "categorySlug": "food",
+      "description": "Идеальное утро начинается с этого",
       "items": [
         {
           "id": "item-coffee",
@@ -56,10 +53,13 @@
         }
       ],
       "stats": {
-        "itemsCount": 2,
-        "monthlyBudget": 2184,
+        "monthlyBudget": 2240,
+        "itemsCount": 3,
         "copiesCount": 2
-      }
+      },
+      "createdAt": "2026-02-20T08:30:00Z",
+      "isPublic": true,
+      "shareId": "morning123"
     }
   ]
     },
